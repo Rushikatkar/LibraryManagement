@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Data Access Layer\DAL.csproj", "{BF2786EB-C89B-4A77-B74C-7EC983717FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "Business Logic Layer\BAL.csproj", "{A941F07F-18F7-4405-BA26-6C2BEF069CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB API", "WEB API\WEB API.csproj", "{BE9494A0-8043-48E5-A52C-9D38F584A0E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2786EB-C89B-4A77-B74C-7EC983717FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2786EB-C89B-4A77-B74C-7EC983717FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2786EB-C89B-4A77-B74C-7EC983717FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2786EB-C89B-4A77-B74C-7EC983717FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A941F07F-18F7-4405-BA26-6C2BEF069CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A941F07F-18F7-4405-BA26-6C2BEF069CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A941F07F-18F7-4405-BA26-6C2BEF069CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A941F07F-18F7-4405-BA26-6C2BEF069CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9494A0-8043-48E5-A52C-9D38F584A0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9494A0-8043-48E5-A52C-9D38F584A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9494A0-8043-48E5-A52C-9D38F584A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9494A0-8043-48E5-A52C-9D38F584A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E984AC4F-6DDA-4E51-8A3D-838E4CEF02BC}
+	EndGlobalSection
+EndGlobal
